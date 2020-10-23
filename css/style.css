@@ -195,11 +195,15 @@ footer .phone p {
         flex-direction: column;
         align-content: center;
     }
+
+    footer .phone p {
+        font-size: 4vmin;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
     .carousel-item img {
-        height: 600px;
+        height: 700px;
         border-radius: 0.5em;
     }
 }
