@@ -13,7 +13,7 @@ nav {
 
 :root {
     --bggradient: linear-gradient(to bottom,
-            #0774aa, #7fd2fa);
+            #130f40, #30336b);
 }
 
 header a {
@@ -22,11 +22,11 @@ header a {
 }
 
 header {
-    background: #7fd2fa;
+    background: #4834d4;
     background: var(--bggradient);
 }
 
-
+#4834d4
 header .nav-link {
     padding: 0.9em;
     padding-right: 0.9em;
@@ -39,11 +39,11 @@ header .navbar-brand {
 }
 
 header .navbar-brand:hover {
-    color: black;
+    color: #222f3e;
 }
 
 header .nav-link:hover {
-    color: black;
+    color: #222f3e;
 }
 
 header .row .col-md-6 img {
@@ -58,7 +58,7 @@ header .container .col-md-6 h3 {
     font-size: 5.5vmin;
     font-weight: bold;
     padding: 10vmin 1vmin;
-    color: whitesmoke;
+    color: #c8d6e5;
 }
 
 .section-1 {
@@ -79,7 +79,7 @@ header .container .col-md-6 h3 {
 }
 
 #information {
-    background-color: #7fd2fa;
+    background-color: #341f97;
     padding: 3vmin;
     font-size: 4vmin;
     border-radius: 0.5em;
@@ -128,13 +128,13 @@ footer {
 }
 
 footer h1 {
-    color: whitesmoke;
+    color: #c8d6e5;
     padding: 20px;
 }
 
 footer .phone {
     border-radius: 3em;
-    background: white;
+    background: #8395a7;
     display: inline-block;
     padding: 1vmin 8.5vmin;
     margin: 1em;
@@ -151,7 +151,7 @@ footer .phone p {
     }
 
     #information {
-        background-color: #7fd2fa;
+        background-color: #2e86de;
         padding: 2vmin;
         font-size: 5vmin;
         border-radius: 0.5em;
