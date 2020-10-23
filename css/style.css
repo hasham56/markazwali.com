@@ -79,21 +79,23 @@ header .container .col-md-6 h3 {
 }
 
 #information {
-    background-color: #7fd2fa;
-    padding: 3vmin;
+    background-color: #3788b1;
+    padding: 2vmin;
     font-size: 4vmin;
     border-radius: 0.5em;
     font-weight: bolder;
+    color: whitesmoke;
 }
 
 .section-2 h4 {
     padding: 2vmin;
-    font-size: 3vmin;
+    font-size: 4.5vmin;
 }
 
 .section-2 p {
-    padding: 1vmin;
-    font-size: 2vmin;
+    padding-left: 8em;
+    padding-right: 8em;
+    font-size: 3vmin;
 }
 
 .section-3 #services {
@@ -144,14 +146,47 @@ footer .phone p {
     font-size: 2.3vmin;
 }
 
-@media only screen and (max-width: 550px) {
+.section-2 .textHolder {
+    background: #7fd2fa;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 1.5em;
+}
+
+.section-2a {
+    background: #7fd2fa;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.section-2a h2 {
+    padding: 2vmin;
+    font-size: 2.35em;
+    background-color: #3788b1;
+    border-radius: 0.5em;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.section-2a .list {
+    background: #7fd2fa;
+    padding: 3vmin;
+    font-size: 1.35em;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 800px) {
     .carousel-item img {
         height: 300px;
         border-radius: 0.5em;
     }
 
     #information {
-        background-color: #7fd2fa;
         padding: 2vmin;
         font-size: 5vmin;
         border-radius: 0.5em;
@@ -164,6 +199,16 @@ footer .phone p {
     }
 
     .section-2 p {
+        font-size: 3.5vmin;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+
+    .section-2a h2 {
+        font-size: 1.75em;
+    }
+
+    .section-2a .list {
         font-size: 3vmin;
     }
 
