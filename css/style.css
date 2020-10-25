@@ -179,6 +179,19 @@ footer .phone p {
     font-weight: bold;
 }
 
+.buttons-position {
+    position: fixed;
+    z-index: 100;
+    border-radius: 500px;
+    bottom: 5%;
+    right: 3%;
+}
+
+.buttons-position img {
+    width: 80px;
+    height: 80px;
+    padding: 1vmin;
+}
 
 @media only screen and (max-width: 800px) {
     .carousel-item img {
